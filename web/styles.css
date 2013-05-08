@@ -1,0 +1,54 @@
+/* 
+    Document   : styles
+    Author     : Elyssa
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    background-color: black;
+    font-family: "Tahoma";
+    color: white;
+    text-align: center;
+}
+
+a {
+   margin: 20px; 
+   color:white;
+   text-decoration: none;
+}
+
+
+#profile {
+    background-image: url('wallpaperVer.jpg');
+    background-repeat: repeat-y;
+}
+
+#content {
+    margin-left: 200px;
+}
+
+#result {
+    color: red;
+}
+
+.float {
+    float: left;
+    margin: 10px;
+}
+
+.main {
+    height: 800px;
+    background-image: url('wallpaper.jpg');
+    background-repeat: repeat-x;
+}
+
+.register {
+    margin-top: 20px;
+}
+
+
